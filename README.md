@@ -107,6 +107,3 @@ Before running this project, ensure that you have the following installed:
    - BufferedReader and Scanner for Input Handling
 
 ---
-voting-address-management-system/ │ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ ├── com/ │ │ │ │ ├── shiv/ │ │ │ │ │ ├── Client/ │ │ │ │ │ │ └── Client.java # Entry point for user interaction │ │ │ │ │ ├── controller/ │ │ │ │ │ │ └── Controller.java # Handles user inputs and calls services │ │ │ │ │ ├── dao/ │ │ │ │ │ │ └── Dao.java # Data Access Object for CRUD operations │ │ │ │ │ ├── entity/ │ │ │ │ │ │ ├── Address.java # Represents an Address entity │ │ │ │ │ │ ├── Person.java # Represents a Person entity │ │ │ │ │ │ └── VotingCard.java # Represents a VotingCard entity │ │ │ │ │ ├── service/ │ │ │ │ │ │ └── Service.java # Service layer for business logic │ │ │ │ │ └── utility/ │ │ │ │ │ └── Utility.java # Hibernate Session and configuration utility │ │ ├── resources/ │ │ │ └── hibernate.cfg.xml # Hibernate configuration file for database connection │ ├── pom.xml # Maven configuration file for dependencies └── README.md # Project documentation
-
-write this structure in redme file with tags
